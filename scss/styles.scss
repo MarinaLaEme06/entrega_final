@@ -1,0 +1,31 @@
+
+
+@import "mixin";
+@import "variables";
+@import "footer";
+
+
+
+ul{
+    color: white;
+    .nav-item{
+        list-style-type: none;
+        padding: 20 px;
+        .nav-link{
+            text-decoration: none;
+            color:black;
+            &:hover{
+                color:deeppink
+            }
+        }
+    }
+   
+}
+
+
+
+.fondo-publicidad{
+    background-color: $colorprincipal;
+    height: 15px;
+}
+

@@ -1,0 +1,66 @@
+$colorprincipal:black;
+$colorsecundario:grey;
+
+/* map-get */
+
+$estilos: (
+  color: #bdbbbd,
+  centro: center,
+  tFuente: 15px,
+  0.5rem : 0.5rem,
+  
+);
+.sass2 {
+    background-color: map-get($estilos, color);
+    text-align: map-get($estilos, centro);
+    padding: map-get($estilos, 0.5rem);
+    font-size:map-get($estilos, tFuente);
+  }
+  
+
+
+
+
+/* extend */  
+
+.sass2{
+    background-color:rgb(246, 225, 248);
+    color: #8d3f8d;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    
+}
+
+.sass2-especial{
+    @extend .sass2;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+/* pie de foto de pag nosotros */
+
+.piefoto{
+    font-size: large;
+    font-family: 'Pacifico', cursive;
+
+    color: #db7fdb;
+
+}
+
+
+.anuncio2{
+    font-family: 'Pacifico', cursive;
+    color: #db7fdb;
+
+}
+
+
+.nosotrosparrafo{
+    color: rgb(221, 145, 205);
+    
+}
+  

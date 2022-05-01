@@ -1,0 +1,9 @@
+@mixin btn {
+    background-color: rgb(44, 12, 44);
+    color:rgb(255, 230, 253);
+    
+}
+
+.btnsitio{
+    @include btn;
+}

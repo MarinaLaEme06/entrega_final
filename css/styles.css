@@ -1,0 +1,51 @@
+.btnsitio {
+  background-color: #2c0c2c;
+  color: #ffe6fd; }
+
+/* map-get */
+.sass2, .sass2-especial {
+  background-color: #bdbbbd;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 15px; }
+
+/* extend */
+.sass2, .sass2-especial {
+  background-color: #f6e1f8;
+  color: #8d3f8d;
+  font-family: 'Pacifico', cursive;
+  font-size: 25px; }
+
+.sass2-especial {
+  font-weight: bold; }
+
+/* pie de foto de pag nosotros */
+.piefoto {
+  font-size: large;
+  font-family: 'Pacifico', cursive;
+  color: #db7fdb; }
+
+.anuncio2 {
+  font-family: 'Pacifico', cursive;
+  color: #db7fdb; }
+
+.nosotrosparrafo {
+  color: #dd91cd; }
+
+footer {
+  background-color: white; }
+
+ul {
+  color: white; }
+  ul .nav-item {
+    list-style-type: none;
+    padding: 20 px; }
+    ul .nav-item .nav-link {
+      text-decoration: none;
+      color: black; }
+      ul .nav-item .nav-link:hover {
+        color: deeppink; }
+
+.fondo-publicidad {
+  background-color: black;
+  height: 15px; }

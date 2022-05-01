@@ -1,0 +1,4 @@
+# Exclude this files
+
+# Dependences
+/node_modules
